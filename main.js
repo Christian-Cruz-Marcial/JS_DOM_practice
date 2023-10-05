@@ -6,4 +6,7 @@ document.querySelector('#myDiv').style.backgroundColor = "lightblue";
 const textArray = document.querySelectorAll('p');
 console.log(textArray.values);
 
-//excercise 2
+ //excercise 2
+ function changeBackground(color){
+    document.body.style.backgroundColor = color;
+}

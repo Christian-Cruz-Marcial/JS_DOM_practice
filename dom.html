@@ -6,8 +6,13 @@
     <title>DOM Events Exercise</title>
 </head>
 <body>
+<button class="btn btn_inline" onclick="changeBackground('red')">Change Background</button>
 
-<!-- Button with inline event handler -->
-<script src="main.js"></script>
+<script>
+    //excercise 2
+function changeBackground(color){
+    document.body.style.backgroundColor = color;
+}
+</script>
 </body>
 </html>
